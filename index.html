@@ -1,11 +1,3 @@
-<?
-$count_my_page = ("./assets/hitcounter/hits.txt");
-$hits = file($count_my_page);
-$hits[0] ++;
-$fp = fopen($count_my_page , "w");
-fputs($fp , "$hits[0]");
-fclose($fp);
-?>
 <html>
   <head>
     <title>Home | Frontline Genisis</title>

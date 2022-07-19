@@ -1,65 +1,97 @@
-body {
-background-color: #44ff00;
-color: #fff;
-font-family: Arial, Helvetica, sans-serif;
-height: auto;
-width: 100%;
+body
+{
+	background-color:#212121;
+	color:#fff;
+	font-family:Arial,Helvetica,sans-serif;
+	height:auto;
+	width:100%
 }
-.content {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-width: 40%;
+
+.content
+{
+	left:50%;
+	position:absolute;
+	text-align:center;
+	top:50%;
+	transform:translate(-50%,-50%);
+	width:40%
 }
-.title {
-font-family: 'MontserratAlternates-Bold';
-font-size: 40px;
+
+a:link
+{
+	text-decoration:none
 }
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
-.btn {
-background-color: #ffffff;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
- border-radius: 15px;
-  font-size: 16px;
-  width: 100%;
-  margin: 0;
-  display: block;
-font-weight: 800;
-    margin-bottom: 10px;
+
+a:visited
+{
+	text-decoration:none
 }
-.youtube {
-  background-color: #ffffff;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  border-top-left-radius: 35px;
-  border-top-right-radius: 35px;
-  font-size: 16px;
-  width: 100%;
-  margin: 0;
-  display: block;
-font-weight: 800;
- border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+
+a:hover
+{
+	text-decoration:none
 }
-iframe {
-    border-top-bottom-radius: 35px;
+
+a:active
+{
+	text-decoration:none
 }
-button:hover {
-background-color: #ff0000;
+
+.btn
+{
+	background-color:#fff;
+	border:none;
+	border-radius:15px;
+	display:block;
+	font-size:16px;
+	font-weight:800;
+	margin:0;
+	margin-bottom:10px;
+	padding:15px 32px;
+	text-align:center;
+	text-decoration:none;
+	width:100%
 }
-button a {
-text-decoration: none;
-color: #000;
+
+.youtube
+{
+	background-color:#fff;
+	border:none;
+	border-top-left-radius:35px;
+  border-top-left-radius:15px;
+	border-top-right-radius:35px;
+	border-top-right-radius:15px;
+	display:block;
+	font-size:16px;
+	font-weight:800;
+	margin:0;
+	padding:15px 32px;
+	text-align:center;
+	text-decoration:none;
+	width:100%
 }
-/*     margin-bottom: 10px;
- */
+
+button:hover
+{
+	background-color:red;
+}
+
+.btn a
+{
+	color:#000;
+	text-decoration:none
+}
+
+.pfp
+{
+	height:100px;
+	margin-top:30px;
+	width:100px
+}
+
+.name
+{
+	font-family:'Quicksand';
+	font-size:30px;
+	margin-top:20px
+}

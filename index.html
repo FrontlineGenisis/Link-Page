@@ -9,6 +9,9 @@
     <link rel="apple-touch-icon-precomposed" href="https://thefrontlinegenisis/assets/img/favicon/favicon.png"/>
   </head>
   <body>
+          <div class="loader">
+         <div class="ring"></div>
+      </div>
     <div class="content">
     <img class="pfp" src="./assets/img/favicon/favicon.png"/>
       <p class="name">Frontline Genisis</p>
@@ -27,7 +30,17 @@
   <a href="https://www.reddit.com/user/frontline_genisis" target="_blank"><button class="btn"><i class="fa-brands fa-reddit"></i> Reddit</button></a>
   <a href="https://fiverr.com/frontlinegen" target="_blank"><button class="btn"><i class="fa-solid fa-money-bill-1-wave"></i> Fiverr</button></a>
   <a href="https://www.behance.net/frontlinegenisis" target="_blank"><button class="btn"><i class="fa-brands fa-behance-square"></i> B&emacr;hance</button></a>
-   
+   <script>
+         const loader = document.querySelector(".loader");
+         window.onload = function(){
+           setTimeout(function(){
+             loader.style.opacity = "0";
+             setTimeout(function(){
+               loader.style.display = "none";
+             }, 500);
+           },1500);
+         }
+      </script>
    </div>
   </body>
 </html>

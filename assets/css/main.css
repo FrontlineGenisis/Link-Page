@@ -19,6 +19,7 @@ body
   transition: all 0.5s;
   z-index: 99;
   cursor: progress;
+   overflow: hidden;
 }
 .loader .ring{
   height: 45px;
@@ -140,4 +141,15 @@ button a
   .content {
   width: 90%;
   }
+.share {
+text-align: right;
+width: 100%;
+font-size: 10px;
+}
+}
+.share {
+text-align: right;
+width: 100%;
+font-size: 25px;
+padding-top: 20px;
 }

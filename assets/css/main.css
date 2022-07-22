@@ -27,29 +27,18 @@ body
    overflow: hidden;
 }
 .loader .ring{
-  height: 45px;
-  width: 45px;
-  border: 5px solid var(--default-text-color);
-  border-radius: 50%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+height: 40px;
+width: 40px;
+background: var(--text-color);
+border-radius: 50%;
+border: 2px solid rgba(33,33,33,255);
+border-top-color: var(--text-color);
+animation: spinner2 600ms linear infinite;
 }
-.loader .ring:after{
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  border: 5px solid var(--secondary-color);
-  border-top-color: transparent;
-  animation: rotate 1.5s linear infinite;
+@keyframes spinner2 {
+to {
+transform: rotate(360deg);
 }
-@keyframes rotate {
-  100%{
-    transform: rotate(360deg);
-  }
 }
 .content
 {
@@ -94,9 +83,9 @@ a:active
 	padding:15px 32px;
 	text-align:center;
 	text-decoration:none;
-	width:100%
+	width:100%;
+  transition: all 0.2s ease-in-out;
 }
-
 .youtube
 {
 	background-color:#fff;
@@ -133,7 +122,8 @@ button a
 {
 	height:100px;
 	margin-top:30px;
-	width:100px
+	width:100px;
+  margin-bottom: 6px;
 }
 
 .name
@@ -141,11 +131,16 @@ button a
 	font-family:'Quicksand';
 	font-size:30px;
   margin-bottom: 6px;
+  margin-top: 0px;
 }
 .fa-location-dot
 {
 font-size: 12px;
 }
+b {
+margin-right: 9px;
+}
+
 @media screen and (max-width: 700px) {
   .content {
   width: 90%;

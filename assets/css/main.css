@@ -1,151 +1,180 @@
 :root {
-  --bg-color: #212121;
-  --default-text-color: #ffffff;
-  --secondary-color: #ff0000
+--bg-color:#212121;
+--default-text-color:#fff;
+--secondary-color:red
 }
-body
-{
-	background-color: var(--bg-color);
-	color: var(--default-text-color);
-	font-family: Arial,Helvetica,sans-serif;
-  width:100%;
-  position: static !important; 
-  top: 0px !important; 
-  margin: 0;
+
+body {
+background-color:var(--bg-color);
+color:var(--default-text-color);
+font-family:Arial,Helvetica,sans-serif;
+width:100%;
+position:static!important;
+top:0!important;
+margin:0;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none
 }
-.loader{
-  position: fixed;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg-color);
-  transition: all 0.5s;
-  z-index: 99;
-  cursor: progress;
-   overflow: hidden;
+
+.loader {
+position:fixed;
+height:100vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+background:var(--bg-color);
+transition:all .5s;
+z-index:99;
+cursor:progress;
+overflow:hidden
 }
-.loader .ring{
-height: 40px;
-width: 40px;
-background: var(--text-color);
-border-radius: 50%;
-border: 2px solid rgba(33,33,33,255);
-border-top-color: var(--text-color);
-animation: spinner2 600ms linear infinite;
+
+.loader .ring {
+height:40px;
+width:40px;
+background:var(--text-color);
+border-radius:50%;
+border:2px solid rgba(33,33,33,255);
+border-top-color:var(--text-color);
+animation:spinner2 600ms linear infinite
 }
+
 @keyframes spinner2 {
 to {
-transform: rotate(360deg);
+transform:rotate(360deg)
 }
-}
-.content
-{
-	left:50%;
-	position:absolute;
-	text-align:center;
-	transform:translate(-50%);
-	width:40%;
-    display: block;
 }
 
-a:link
-{
-	text-decoration:none
+.content {
+left:50%;
+position:absolute;
+text-align:center;
+transform:translate(-50%);
+width:40%;
+display:block
 }
 
-a:visited
-{
-	text-decoration:none
+a:link {
+text-decoration:none
 }
 
-a:hover
-{
-	text-decoration:none
+a:visited {
+text-decoration:none
 }
 
-a:active
-{
-	text-decoration:none
+a:hover {
+text-decoration:none
 }
 
-.btn
-{
-	background-color:#fff;
-	border:none;
-	border-radius:15px;
-	display:block;
-	font-size:16px;
-	font-weight:800;
-	margin:0;
-	margin-bottom:10px;
-	padding:15px 32px;
-	text-align:center;
-	text-decoration:none;
-	width:100%;
-  transition: all 0.2s ease-in-out;
+a:active {
+text-decoration:none
 }
-.youtube
-{
-	background-color:#fff;
-	border:none;
-	border-top-left-radius:35px;
-  border-top-left-radius:15px;
-	border-top-right-radius:35px;
-	border-top-right-radius:15px;
-	display:block;
-	font-size:16px;
-	font-weight:800;
-	margin:0;
-	padding:15px 32px;
-	text-align:center;
-	text-decoration:none;
-	width:100%
+
+.btn {
+background-color:#fff;
+border:none;
+border-radius:15px;
+display:block;
+font-size:16px;
+font-weight:800;
+margin:0;
+margin-bottom:10px;
+padding: 20px 0px 20px 0px;
+text-align:center;
+text-decoration:none;
+width:100%;
+transition:all .2s ease-in-out;
+color:var(--bg-color)
 }
+
+.youtube {
+background-color:#fff;
+border:none;
+border-top-left-radius:35px;
+border-top-left-radius:15px;
+border-top-right-radius:35px;
+border-top-right-radius:15px;
+display:block;
+font-size:16px;
+font-weight:800;
+margin:0;
+padding: 20px 0px 20px 0px;
+text-align:center;
+text-decoration:none;
+width:100%
+}
+
 a {
-text-decoration: none;
-color: #fff;
-}
-button:hover
-{
-	background-color: var(--secondary-color);
+text-decoration:none;
+color:#fff
 }
 
-button a
-{
-	color:#000;
-	text-decoration:none
+button:hover {
+background-color:var(--secondary-color)
 }
 
-.pfp
-{
-	height:100px;
-	margin-top:30px;
-	width:100px;
-  margin-bottom: 6px;
+button a {
+color:var(--bg-color);
+text-decoration:none
 }
 
-.name
-{
-	font-family:'Quicksand';
-	font-size:30px;
-  margin-bottom: 6px;
-  margin-top: 0px;
+.pfp {
+height:100px;
+margin-top:30px;
+width:100px;
+margin-bottom:6px
 }
-.fa-location-dot
-{
-font-size: 12px;
+
+.name {
+font-family:'Quicksand';
+font-size:30px;
+margin-bottom:6px;
+margin-top:0
 }
+
+.fa-location-dot {
+font-size:12px
+}
+
 b {
-margin-right: 9px;
+margin-right:9px
 }
 
 @media screen and (max-width: 700px) {
-  .content {
-  width: 90%;
-  }
+.content {
+width:90%
 }
+}
+
 .location {
+margin-top:0
+}
+
+.other-profiles {
+font-family:'Quicksand';
+font-size:30px;
+margin-bottom:4px;
+color:var(--bg-color);
 margin-top: 0;
+padding-top: 7px;
+}
+
+.other {
+background-color:var(--default-text-color);
+border-radius:15px;
+display: block;
+margin-top: 0;
+}
+
+.other img {
+margin-top:0;
+border-radius:50%;
+height:100px;
+width:100px;
+transition:all .2s ease-in-out
 }

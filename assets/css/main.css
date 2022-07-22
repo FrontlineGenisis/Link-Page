@@ -169,6 +169,7 @@ background-color:var(--default-text-color);
 border-radius:15px;
 display: block;
 margin-top: 0;
+margin-bottom: 10px;
 }
 
 .other img {

@@ -144,7 +144,11 @@ margin-right:9px
 width:90%
 }
 }
-
+@media screen and (max-width: 1000px) {
+.content {
+width:75%
+}
+}
 .location {
 margin-top:0
 }

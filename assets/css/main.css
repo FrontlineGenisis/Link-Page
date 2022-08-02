@@ -1,5 +1,5 @@
 :root {
---bg-color:#212121;
+--bg-color:#181818;
 --default-text-color:#fff;
 --secondary-color:red
 }
@@ -39,7 +39,7 @@ height:40px;
 width:40px;
 background:var(--text-color);
 border-radius:50%;
-border:2px solid rgba(33,33,33,255);
+border:2px solid rgba(24,24,24,1);
 border-top-color:var(--text-color);
 animation:spinner2 600ms linear infinite
 }
@@ -55,7 +55,7 @@ left:50%;
 position:absolute;
 text-align:center;
 transform:translate(-50%);
-width:40%;
+width:35%;
 display:block
 }
 
@@ -121,12 +121,14 @@ background-color:var(--secondary-color)
 height:100px;
 margin-top:30px;
 width:100px;
-margin-bottom:6px
+margin-bottom:6px;
+border-radius: 50%;
+outline: solid 2px white
 }
 
 .name {
 font-family:'Quicksand';
-font-size:30px;
+font-size:20px;
 margin-bottom:6px;
 margin-top:0
 }
@@ -178,4 +180,6 @@ width:100px;
 transition:all .2s ease-in-out;
 margin-bottom:6px;
 }
- 
+.quick-info {
+margin-bottom: 27px;
+}

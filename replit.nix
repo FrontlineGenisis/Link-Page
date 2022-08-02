@@ -1,5 +1,6 @@
 { pkgs }: {
 	deps = [
-		pkgs.php74
+		pkgs.texinfoInteractive
+  pkgs.php74
 	];
 }

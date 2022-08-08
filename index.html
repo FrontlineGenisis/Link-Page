@@ -83,7 +83,7 @@
         </a>
         <a href="https://github.com/frontlinegenisis" target="_blank" class="btn">
             <i class="fa-brands fa-github">
-        </i> Github
+        </i> GitHub
         </a>
         <a href="https://www.reddit.com/user/frontline_genisis" target="_blank" class="btn">
             <i class="fa-brands fa-reddit">
@@ -136,6 +136,8 @@
             </a>
         </div>
     </div>
+  <button class="float-button" onclick="themeToggle()">
+<i class="fa-solid fa-circle-half-stroke float-button-icon"></i></button>
     <script>
         const loader = document.querySelector(".loader");
           window.onload = function(){
@@ -149,6 +151,11 @@
                        ,1500);
           }
     </script>
+  <script>
+  function themeToggle() {
+  var element = document.body;
+  element.classList.toggle("light-mode");
+}
+</script>
 </body>
-
 </html>

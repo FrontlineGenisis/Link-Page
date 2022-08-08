@@ -1,7 +1,12 @@
+/* Root Styles */
 :root {
 --bg-color:#181818;
+--light-mode-bg-color: #fff;
+--light-mode-text-color: #181818;
+--light-mode-button-text-color: #ffffff;
+--light-mode-button-bg: #181818;
 --default-text-color:#fff;
---secondary-color:red
+--secondary-color:#ff0000;
 }
 
 body {
@@ -19,6 +24,35 @@ margin:0;
 -ms-user-select:none;
 user-select:none
 }
+/* Root Styles End */
+
+/* Light Mode Styles */
+.light-mode {
+background-color: var(--light-mode-bg-color);
+color: var(--light-mode-text-color);
+}
+.light-mode .btn {
+background-color: var(--light-mode-button-bg);
+color: var(--light-mode-button-text-color);
+}
+.light-mode a {
+color: var(--light-mode-text-color);
+}
+.light-mode .other {
+background-color: var(--light-mode-button-bg);
+color: var(--light-mode-button-text-color);
+}
+.light-mode .other-profiles {
+color: var(--light-mode-button-text-color);
+}
+.light-mode .loader {
+background:var(--light-mode-bg-color);
+}
+.light-mode .loader .ring {
+background:var(--light-mode-text-color);
+border-top-color:var(--light-mode-text-color);
+}
+/* Light Mode Styles End */
 
 .loader {
 position:fixed;
@@ -85,13 +119,15 @@ font-weight:800;
 margin:0;
 margin-bottom:10px;
 padding: 20px 0px 20px 0px;
-text-align:center;
 text-decoration:none;
 width:100%;
 transition:all .2s ease-in-out;
-color:var(--bg-color)
+color:var(--bg-color);
 }
-
+.btn p {
+  text-align-last: right;
+  display: inline-block;
+}
 .youtube {
 background-color:#fff;
 border:none;
@@ -123,7 +159,6 @@ margin-top:30px;
 width:100px;
 margin-bottom:6px;
 border-radius: 50%;
-outline: solid 2px white
 }
 
 .name {
@@ -177,9 +212,40 @@ margin-top:0;
 border-radius:50%;
 height:100px;
 width:100px;
-transition:all .2s ease-in-out;
+transition:all .3s ease-in-out;
 margin-bottom:6px;
+display: inline-block;
+overflow: hidden;
+}
+.other img:hover {
+filter: contrast(120%);
 }
 .quick-info {
 margin-bottom: 27px;
+    background: rgba(0,0,0,0.0);
+}
+.quick-info a {
+    background: rgba(0,0,0,0.0);
+}
+.btn i {
+float: left;
+  text-align: left;
+position: absolute;
+}
+.float-button {
+	position:fixed;
+	bottom:80px;
+	right:40px;
+	width:60px;
+	height:60px;
+	background-color: var(--secondary-color);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  border: none;
+  outline: none;
+}
+.float-button-icon {
+margin-top:3px;
+	font-size:25px;
 }

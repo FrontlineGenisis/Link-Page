@@ -5,4 +5,8 @@
 <h2 align="center">🧠 Repo Info</h2>
 <p align="center"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/frontlinegenisis/link-page?color=green&style=for-the-badge"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/frontlinegenisis/link-page?color=green&style=for-the-badge"> <a href="https://validator.nu/?doc=https%3A%2F%2Fthefrontlinegenisis.ml"><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=validation&style=for-the-badge&targetUrl=https%3A%2F%2Forigin.thefrontlinegenisis.ml%2F"></a> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/frontlinegenisis/link-page?color=green&style=for-the-badge">
 </p>
+<br>
+<h2 align="center">🌐 Domain Config</h2>
+<p align="center">My current website domain setup, subject to changes.</p>
+<img alt="Domain Map" src="https://user-images.githubusercontent.com/80414685/183500962-57d9a6d0-d372-4aa6-a78a-9b0f6b1427b7.svg">
 <h2 align="center">📝 Notes</h2>

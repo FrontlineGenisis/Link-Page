@@ -12,7 +12,8 @@
 body {
 background-color:var(--bg-color);
 color:var(--default-text-color);
-font-family:Arial,Helvetica,sans-serif;
+font-family: Rubik;
+font-weight: 400;
 width:100%;
 position:static!important;
 top:0!important;
@@ -248,4 +249,7 @@ position: absolute;
 .float-button-icon {
 margin-top:3px;
 	font-size:25px;
+}
+.intro {
+display: none;
 }

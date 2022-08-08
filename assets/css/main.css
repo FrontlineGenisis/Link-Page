@@ -23,7 +23,7 @@ margin:0;
 -khtml-user-select:none;
 -moz-user-select:none;
 -ms-user-select:none;
-user-select:none
+user-select:none;
 }
 /* Root Styles End */
 
@@ -84,7 +84,6 @@ to {
 transform:rotate(360deg)
 }
 }
-
 .content {
 left:50%;
 position:absolute;

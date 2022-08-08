@@ -7,6 +7,7 @@
 </p>
 <br>
 <h2 align="center">🌐 Domain Config</h2>
-<p align="center">My current website domain setup, subject to changes.</p>
+<p align="center"><b>My current website domain setup, subject to changes.</b></p>
 <img alt="Domain Map" src="https://user-images.githubusercontent.com/80414685/183500962-57d9a6d0-d372-4aa6-a78a-9b0f6b1427b7.svg">
 <h2 align="center">📝 Notes</h2>
+<p align="center"><b>• Join my Discord for updates (https://discord.gg/QBcnnGKMgR)</b></p>

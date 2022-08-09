@@ -231,6 +231,7 @@ margin-bottom: 27px;
 float: left;
   text-align: left;
 position: absolute;
+  font-size: 14px;
 }
 .float-button {
 	position:fixed;

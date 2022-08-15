@@ -23,7 +23,7 @@ margin:0;
 -khtml-user-select:none;
 -moz-user-select:none;
 -ms-user-select:none;
-user-select:none;
+user-select:none; 
 }
 /* Root Styles End */
 
@@ -252,4 +252,15 @@ margin-top:3px;
 }
 .intro {
 display: none;
+}
+.privacy-policy {
+position:absolute;
+display: block;
+bottom: 0;
+margin-bottom: 20px;
+font-family: Arial;
+font-weight: 900;
+}
+.privacy-policy:hover {
+cursor: default;
 }

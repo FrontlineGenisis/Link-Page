@@ -37,12 +37,7 @@
 </head>
 
 <body>
-    <div class="loader">
-        <div class="ring">
-        </div>
-            <a class="privacy-policy" href="./privacy-policy">Privacy Policy</a>
-
-    </div>
+<?php include('loader.php'); ?>
     <div class="content">
      <h1>Privacy Policy for Frontline Genisis' Website</h1>
 

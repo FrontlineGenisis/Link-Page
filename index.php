@@ -36,11 +36,7 @@
 </head>
 
 <body>
-    <div class="loader">
-        <div class="ring">
-        </div>
-      <a class="privacy-policy" href="./privacy-policy">Privacy Policy</a>
-    </div>
+
     
     <div class="content">
         <img class="pfp" src="./assets/img/favicon/favicon.png" alt="PFP" />

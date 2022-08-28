@@ -36,7 +36,7 @@
 </head>
 
 <body>
-
+<?php include('loader.php'); ?>
     
     <div class="content">
         <img class="pfp" src="./assets/img/favicon/favicon.png" alt="PFP" />

@@ -16,3 +16,4 @@
                        ,1500);
           }
     </script>
+<?php include('preload.php'); ?>

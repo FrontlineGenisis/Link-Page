@@ -84,6 +84,14 @@ to {
 transform:rotate(360deg)
 }
 }
+div#preload {
+  display: none;
+  visibility: hidden;
+}
+#preload img {
+  display: none;
+  visibility: hidden;
+}
 .content {
 left:50%;
 position:absolute;

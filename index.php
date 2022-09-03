@@ -33,7 +33,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>
     <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" />
-    <link rel="apple-touch-icon-precomposed" href="https://thefrontlinegenisis/assets/img/favicon/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" href="https://thefrontlinegenisis.ml/assets/img/favicon/favicon.png" />
 </head>
 
 <body>

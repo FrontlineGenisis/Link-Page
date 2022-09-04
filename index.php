@@ -171,8 +171,6 @@
         </div>
     
     </div>
-    <button class="float-button" onclick="themeToggle()">
-<i class="fa-solid fa-circle-half-stroke float-button-icon"></i></button>
    <script>
         const loader = document.querySelector(".loader");
           window.onload = function(){
@@ -185,12 +183,6 @@
             }
                        ,1500);
           }
-    </script>
-    <script>
-        function themeToggle() {
-          var element = document.body;
-          element.classList.toggle("light-mode");
-        }
     </script>
 </body>
 

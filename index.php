@@ -66,6 +66,10 @@
             <i class="fa-brands fa-twitter">
         </i> Twitter
         </a>
+<a href="https://instagram.com/thefrontlinegenisis" target="_blank" class="btn">
+            <i class="fa-brands fa-instagram">
+        </i> Instagram
+        </a>
         <a href="https://deviantart.com/frontlinegenisis" target="_blank" class="btn">
             <i class="fa-brands fa-deviantart">
         </i> DeviantArt

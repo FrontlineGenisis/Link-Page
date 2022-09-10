@@ -33,7 +33,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>
     <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" />
-    <link rel="apple-touch-icon-precomposed" href="https://thefrontlinegenisis/assets/img/favicon/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" href="https://thefrontlinegenisis.ml/assets/img/favicon/favicon.png" />
 </head>
 
 <body>
@@ -65,6 +65,10 @@
         <a href="https://twitter.com/thefrontlinegen" target="_blank" class="btn">
             <i class="fa-brands fa-twitter">
         </i> Twitter
+        </a>
+<a href="https://instagram.com/thefrontlinegenisis" target="_blank" class="btn">
+            <i class="fa-brands fa-instagram">
+        </i> Instagram
         </a>
         <a href="https://deviantart.com/frontlinegenisis" target="_blank" class="btn">
             <i class="fa-brands fa-deviantart">
@@ -171,8 +175,6 @@
         </div>
     
     </div>
-    <button class="float-button" onclick="themeToggle()">
-<i class="fa-solid fa-circle-half-stroke float-button-icon"></i></button>
    <script>
         const loader = document.querySelector(".loader");
           window.onload = function(){
@@ -185,12 +187,6 @@
             }
                        ,1500);
           }
-    </script>
-    <script>
-        function themeToggle() {
-          var element = document.body;
-          element.classList.toggle("light-mode");
-        }
     </script>
 </body>
 

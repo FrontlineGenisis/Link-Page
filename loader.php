@@ -17,3 +17,4 @@
           }
     </script>
 <?php include('preload.php'); ?>
+<?php include('lightmode.php'); ?>

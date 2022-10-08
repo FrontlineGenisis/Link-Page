@@ -78,6 +78,10 @@
             <i class="fa-brands fa-twitch">
         </i> Twitch
         </a>
+        <a href="https://twitch.tv/thefrontlinegenisis" target="_blank" class="btn">
+           <i class="fa-brands fa-kickstarter">
+        </i> Kickstarter
+        </a>
         <a href="https://www.youtube.com/channel/UCucWkds2O2DOR8Ju8Grc9ZQ" target="_blank" class="btn">
             <i class="fa-brands fa-youtube">
         </i> YouTube

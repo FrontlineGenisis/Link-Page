@@ -1,4 +1,10 @@
 <?php
+if(!defined('MyConst')) {
+   http_response_code(403);
+   die('Direct access not permitted');
+}
+?>
+<?php
 function sanitize_output($buffer) {
 $search = array(
 '/\>[^\S ]+/s',     

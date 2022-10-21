@@ -1,5 +1,8 @@
-<?php include('optimize.php'); ?>
-<?php include('counter.php'); ?>
+<?php
+define('MyConst', TRUE);
+?>
+<?php include('./assets/php/optimize.php'); ?>
+<?php include('./assets/php/counter.php'); ?>
 <!DOCTYPE html>
 <html lang="en-GB">
 
@@ -37,7 +40,7 @@
 </head>
 
 <body>
-<?php include('loader.php'); ?>
+<?php include('./assets/php/loader.php'); ?>
     <div class="content">
         <img class="pfp" src="./assets/img/favicon/favicon.png" alt="PFP" />
         <p class="name">Frontline Genisis
@@ -57,6 +60,7 @@
             </p>
             <p class="intro">Hello visitor, I am Marshall, otherwise known as Frontline Genisis. I am a web designer from London, UK hoping to fufill my dreams of moving to the USA. I do freelancing commisions and web design for ON:LINE Digital.</p>
         </div>
+
         <p class="section-title">Social Media</p>
         <a href="https://discord.gg/QBcnnGKMgR" target="_blank" class="btn">
             <i class="fa-brands fa-discord">

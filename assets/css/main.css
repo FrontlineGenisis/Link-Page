@@ -325,9 +325,11 @@ b {
 }
 .popup-inner .popup-text {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 10px;
   margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .popup-inner .popup-button {
   font-family: "Montserrat", sans-serif;

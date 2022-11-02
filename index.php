@@ -41,6 +41,7 @@ define('MyConst', TRUE);
 
 <body>
 <?php include('./assets/php/loader.php'); ?>
+
     <div class="content">
         <img class="pfp" src="./assets/img/favicon/favicon.png" alt="PFP" />
         <p class="name">Frontline Genisis
@@ -62,6 +63,15 @@ define('MyConst', TRUE);
         </div>
 
         <p class="section-title">Social Media</p>
+ <div class="popup">
+<div class="popup-inner">
+     <img src="./assets/img/meta-quest.png" alt="meta-quest" class="meta-quest"/> <!--<i class="fa-solid fa-xmark" onclick="parentNode.parentNode.parentNode.remove()"></i>-->
+     <br />
+          <img src="./assets/img/thinking-of-buying-one.png" alt="meta-quest" class="header"/>
+
+     <p class="popup-text">Use my referral code to buy a Meta Quest, giving you £23 in store credit.</p>
+     <a class="popup-button" href="https://www.oculus.com/referrals/link/FrontlineGen/" target="_blank">Sure</a> <a class="popup-button-alt" onclick="parentNode.remove()">No, thanks.</a> <!--<div class="popup-other-btns"><a href="https://amzn.to/3sWQqSx" class="popup-other-btn" target="_blank"><i class="fa-brands fa-amazon"></i></a></div>-->
+     </div></div>
         <a href="https://discord.gg/QBcnnGKMgR" target="_blank" class="btn">
             <i class="fa-brands fa-discord">
         </i> Discord

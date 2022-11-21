@@ -37,9 +37,15 @@ define('MyConst', TRUE);
     </script>
     <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" />
     <link rel="apple-touch-icon-precomposed" href="https://thefrontlinegenisis.ml/assets/img/favicon/favicon.png" />
+    <?php
+if(isset($_COOKIE['popupClosed'])){
+echo'<style>#popup-close {display:none!important}</style>';
+} else {
+}
+?>
 </head>
 
-<body>
+<body onload="checkCookies()">
 <?php include('./assets/php/loader.php'); ?>
 
     <div class="content">
@@ -63,15 +69,39 @@ define('MyConst', TRUE);
         </div>
 
         <p class="section-title">Social Media</p>
- <div class="popup">
-<div class="popup-inner">
+<div id="popup-close">
+  <?php
+$day_array = array(
+
+    '
+<div id="popup1">
+<div class="popup1-inner">
      <img src="./assets/img/meta-quest.png" alt="meta-quest" class="meta-quest"/> <!--<i class="fa-solid fa-xmark" onclick="parentNode.parentNode.parentNode.remove()"></i>-->
      <br />
           <img src="./assets/img/thinking-of-buying-one.png" alt="meta-quest" class="header"/>
 
-     <p class="popup-text">Use my referral code to buy a Meta Quest, giving you £23 in store credit.</p>
-     <a class="popup-button" href="https://www.oculus.com/referrals/link/FrontlineGen/" target="_blank">Sure</a> <a class="popup-button-alt" onclick="parentNode.remove()">No, thanks.</a> <!--<div class="popup-other-btns"><a href="https://amzn.to/3sWQqSx" class="popup-other-btn" target="_blank"><i class="fa-brands fa-amazon"></i></a></div>-->
-     </div></div>
+     <p class="popup1-text">Use my referral code to buy a Meta Quest, giving you £23 in store credit.</p>
+     <a class="popup1-button" href="https://www.oculus.com/referrals/link/FrontlineGen/" target="_blank">Sure</a> <a class="popup1-button-alt" onclick="popup1Close()">No, thanks.</a> <!--<div class="popup1-other-btns"><a href="https://amzn.to/3sWQqSx" class="popup1-other-btn" target="_blank"><i class="fa-brands fa-amazon"></i></a></div>-->
+     </div></div>',
+'
+<div id="popup1">
+<div class="popup2-inner">
+     <img src="./assets/img/dropbox.png" alt="meta-quest" class="dropbox"/> <!--<i class="fa-solid fa-xmark" onclick="parentNode.parentNode.parentNode.remove()"></i>-->
+     <br />
+          <p class="header">FREE EXTRA 500MB</p>
+
+     <p class="popup2-text">Use my referral link to signup to Dropbox, giving you 500mb in extra storage.</p>
+     <a class="popup2-button" href="https://www.dropbox.com/referrals/AACJPKhWX14h0_VtRntWNO3-Alu52CMnMnI?src=global9" target="_blank">Sure</a> <a class="popup2-button-alt" onclick="popup1Close()">No, thanks.</a> <!--<div class="popup1-other-btns"><a href="https://amzn.to/3sWQqSx" class="popup1-other-btn" target="_blank"><i class="fa-brands fa-amazon"></i></a></div>-->
+     </div></div>'
+);
+
+shuffle($day_array);
+for ($i = 1;$i < 2;$i++)
+{
+    echo array_shift($day_array);
+}
+?>
+</div>
         <a href="https://discord.gg/QBcnnGKMgR" target="_blank" class="btn">
             <i class="fa-brands fa-discord">
         </i> Discord
@@ -191,8 +221,12 @@ define('MyConst', TRUE);
                 <img src="./assets/img/profiles/dotzi.png" alt="dotzi" />
             </a>
         </div>
-    
     </div>
-
-
+<script>
+  function popup1Close() {
+  document.getElementById("popup-close").style.display = "none";
+	document.cookie = "popupClosed=true; expires=Thu, 01 Jan 2025 00:00:00 UTC; path=/;";
+}
+</script>
+  </body>
 </html>

@@ -44,7 +44,8 @@ echo'<style>#popup-close {display:none!important}</style>';
 }
 ?>
 <noscript>
-<style>.loader { display:none!important; }</style>
+<style>.loader { display:none!important; } .float-button { display:none!important; } .popup1-button-alt { /* text-decoration: line-through!important; */ cursor: no-drop!important; }</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
  </noscript>
 </head>
 

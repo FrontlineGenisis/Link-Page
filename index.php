@@ -43,6 +43,9 @@ echo'<style>#popup-close {display:none!important}</style>';
 } else {
 }
 ?>
+<noscript>
+<style>.loader { display:none!important; }</style>
+ </noscript>
 </head>
 
 <body onload="checkCookies()">

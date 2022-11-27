@@ -4,7 +4,7 @@ if(!defined('MyConst')) {
    die('Direct access not permitted');
 }
 ?>
-<button class="float-button" onclick="themeToggle()">
+<button class="float-button" aria-label="light-mode-toggle" onclick="themeToggle()">
 <i class="fa-solid fa-circle-half-stroke float-button-icon"></i></button>
     <script>
         function themeToggle() {

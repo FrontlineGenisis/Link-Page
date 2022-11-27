@@ -7,10 +7,11 @@ define('MyConst', TRUE);
 <html lang="en-GB">
 
 <head>
-    <title>Home | Frontline Genisis
-    </title>
+    <title>Home | Frontline Genisis</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.google.com">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@thefrontlinegenisis">
     <meta name="twitter:title" content="Links | Frontline Genisis">
@@ -19,20 +20,24 @@ define('MyConst', TRUE);
     <meta name="twitter:image" content="https://thefrontlinegenisis.ml/assets/img/favicon/favicon.png">
     <meta property="og:title" content="Laptops, TVs, Tablets, Whole Home Wi-Fi &amp; Phones" />
     <meta property="og:description" content="Official link page of Frontline Genisis, a web designer from London, UK. Powered by HTML5 and CSS3."/>
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://thefrontlinegenisis.ml/assets/img/favicon/favicon.png" />
-    <meta property="og:image:secure_url" content="https://thefrontlinegenisis.ml/assets/img/favicon/favicon.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="600" />
-    <meta property="og:image:height" content="600" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://thefrontlinegenisis.ml/assets/img/favicon/favicon.png"/>
+    <meta property="og:image:secure_url" content="https://thefrontlinegenisis.ml/assets/img/favicon/favicon.png"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="600"/>
+    <meta property="og:image:height" content="600"/>
     <meta property="og:image:alt" content="Frontline Genisis Logo"/>
-    <meta property="og:url" content="https://thefrontlinegenisis.ml" />
+    <meta property="og:url" content="https://thefrontlinegenisis.ml"/>
     <meta property="og:locale" content="en_GB" />
     <meta property="og:site_name" content="Home | Frontline Genisis"/>
-    <meta property="fb:admins" content="" />
+    <meta property="fb:admins" content=""/>
     <meta name="p:domain_verify" content="76c8311b5ab302bd20cdee92d65e731c" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./assets/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="./assets/fonts/fonts.css"/>
+    <noscript>
+    <style>.loader { display:none!important; } .float-button { display:none!important; } .popup1-button-alt { /* text-decoration: line-through!important; */ cursor: no-drop!important; } .popup2-button-alt { /* text-decoration: line-through!important; */ cursor: no-drop!important; }</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    </noscript>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>
     <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" />
@@ -43,17 +48,13 @@ echo'<style>#popup-close {display:none!important}</style>';
 } else {
 }
 ?>
-<noscript>
-<style>.loader { display:none!important; } .float-button { display:none!important; } .popup1-button-alt { /* text-decoration: line-through!important; */ cursor: no-drop!important; } .popup2-button-alt { /* text-decoration: line-through!important; */ cursor: no-drop!important; }</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
- </noscript>
 </head>
 
 <body onload="checkCookies()">
 <?php include('./assets/php/loader.php'); ?>
 
     <div class="content">
-        <img class="pfp" src="./assets/img/favicon/favicon.png" alt="PFP" />
+        <img class="pfp" src="./assets/img/logo.webp" alt="PFP" />
         <p class="name">Frontline Genisis
         </p>
         <div class="quick-info">
@@ -85,17 +86,17 @@ $day_array = array(
           <img src="./assets/img/thinking-of-buying-one.png" alt="meta-quest" class="header"/>
 
      <p class="popup1-text">Use my referral code to buy a Meta Quest, giving you £23 in store credit.</p>
-     <a class="popup1-button" href="https://www.oculus.com/referrals/link/FrontlineGen/" target="_blank">Sure</a> <a class="popup1-button-alt" onclick="popup1Close()">No, thanks.</a> <!--<div class="popup1-other-btns"><a href="https://amzn.to/3sWQqSx" class="popup1-other-btn" target="_blank"><i class="fa-brands fa-amazon"></i></a></div>-->
+     <a class="popup1-button" href="https://www.oculus.com/referrals/link/FrontlineGen/" target="_blank">Sure</a> <p class="popup1-button-alt" onclick="popup1Close()">No, thanks.</p> <!--<div class="popup1-other-btns"><a href="https://amzn.to/3sWQqSx" class="popup1-other-btn" target="_blank"><i class="fa-brands fa-amazon"></i></a></div>-->
      </div></div>',
 '
 <div id="popup1">
 <div class="popup2-inner">
-     <img src="./assets/img/dropbox.png" alt="meta-quest" class="dropbox"/> <!--<i class="fa-solid fa-xmark" onclick="parentNode.parentNode.parentNode.remove()"></i>-->
+     <img src="./assets/img/dropbox.webp" alt="meta-quest" class="dropbox"/> <!--<i class="fa-solid fa-xmark" onclick="parentNode.parentNode.parentNode.remove()"></i>-->
      <br />
           <p class="header">FREE EXTRA 500MB</p>
 
      <p class="popup2-text">Use my referral link to signup to Dropbox, giving you 500mb in extra storage.</p>
-     <a class="popup2-button" href="https://www.dropbox.com/referrals/AACJPKhWX14h0_VtRntWNO3-Alu52CMnMnI?src=global9" target="_blank">Sure</a> <a class="popup2-button-alt" onclick="popup1Close()">No, thanks.</a> <!--<div class="popup1-other-btns"><a href="https://amzn.to/3sWQqSx" class="popup1-other-btn" target="_blank"><i class="fa-brands fa-amazon"></i></a></div>-->
+     <a class="popup2-button" href="https://www.dropbox.com/referrals/AACJPKhWX14h0_VtRntWNO3-Alu52CMnMnI?src=global9" target="_blank">Sure</a> <p class="popup2-button-alt" onclick="popup1Close()">No, thanks.</p> <!--<div class="popup1-other-btns"><a href="https://amzn.to/3sWQqSx" class="popup1-other-btn" target="_blank"><i class="fa-brands fa-amazon"></i></a></div>-->
      </div></div>'
 );
 
@@ -219,10 +220,10 @@ for ($i = 1;$i < 2;$i++)
             <p class="other-profiles">Other Profiles
             </p>
             <a href="https://on-linedigital.ml">
-                <img src="./assets/img/profiles/online.png" alt="ON:LINE" />
+                <img src="./assets/img/profiles/online.webp" alt="ON:LINE" />
             </a>
             <a href="https://dotzi.shop">
-                <img src="./assets/img/profiles/dotzi.png" alt="dotzi" />
+                <img src="./assets/img/profiles/dotzi.webp" alt="dotzi" />
             </a>
         </div>
     </div>

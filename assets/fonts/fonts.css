@@ -3,16 +3,19 @@
   src: url('../fonts/MontserratAlternates/MontserratAlternates-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Quicksand';
   src: url('../fonts/Quicksand/quicksand.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Rubik';
   src: url('../fonts/Rubik/Rubik-VariableFont_wght.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
